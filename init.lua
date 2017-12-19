@@ -1,4 +1,7 @@
--- Keybinding for JetBrains: Code > Comment with line comment (toggle)
+-- Keybinding for JetBrains: Code > Comment with Line Comment
 hs.hotkey.bind({"alt", "ctrl"}, "7", nil, function() 
     hs.eventtap.keyStroke({"cmd"}, "pad/")
   end)
+
+hs.hotkey.bind({"cmd", "alt", "ctrl"}, "R", nil, hs.reload)
+hs.notify.new({title="Hammerspoon", informativeText="Config reloaded"}):send()
