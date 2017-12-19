@@ -1,3 +1,5 @@
+dofile('window_tiling.lua')
+
 -- Keybinding for JetBrains: Code > Comment with Line Comment
 hs.hotkey.bind({"alt", "ctrl"}, "7", nil, function() 
     hs.eventtap.keyStroke({"cmd"}, "pad/")
