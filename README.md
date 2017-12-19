@@ -38,7 +38,7 @@ git pull
 
 ## Tutorial
 There are several branches that accompany a short introductory talk ([download as PDF](https://github.com/reybok/hammerspoon-dotfiles/files/1571899/Wissensaustauschrausch_JN_macOS_scripting.pdf)) I held in 2017.
-Checkout `tutorial01`, `tutorial02`, and `tutorial03` as you go along to see the incremental evolution. Finally, for space manipulation, check out the `master` branch.
+Checkout `tutorial01`, `tutorial02`, and `tutorial03` as you go along to see the incremental evolution. Finally, for space manipulation, check out the `tutorial04` branch.
 
 
 ## Quick Start
