@@ -36,6 +36,11 @@ cd $HOME/.hammerspoon
 git pull
 ```
 
+## Tutorial
+There are several branches that accompany a short introductory talk ([download as PDF](https://github.com/reybok/hammerspoon-dotfiles/files/1571899/Wissensaustauschrausch_JN_macOS_scripting.pdf)) I held in 2017.
+Checkout `tutorial01`, `tutorial02`, and `tutorial03` as you go along to see the incremental evolution. Finally, for space manipulation, check out the `master` branch.
+
+
 ## Quick Start
 The default modifier (base key for every action) is <kbd>⌘</kbd>.
 To change that, edit the `globals.lua` file found in `~/.hammerspoon/`.
