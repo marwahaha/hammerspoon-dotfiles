@@ -17,7 +17,7 @@ Then clone (or copy) `hammerspoon-dotfiles` into your hammerspoon directory:
 
 ```
 cd $HOME/.hammerspoon
-git clone https://github.com/reybok/hammerspoon-dotfiles
+git clone https://github.com/reybok/hammerspoon-dotfiles .
 ```
 
 ### Enable Spaces Support
