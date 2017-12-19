@@ -23,9 +23,9 @@ git clone https://github.com/reybok/hammerspoon-dotfiles .
 ### Enable Spaces Support
 
 * Settings > Mission Control: disable `Automatically rearrange Spaces based on most recent use` 
-* Settings > Mission Control: enable `Displays have separate Spaces` ![Screenshot Mission Control Settings](https://user-images.githubusercontent.com/32271425/33946878-42bd1990-e023-11e7-9dc9-d3a1bd532a43.png)
+* Settings > Mission Control: enable `Displays have separate Spaces` ![Screenshot Mission Control Settings](https://user-images.githubusercontent.com/32271425/33946879-42d88266-e023-11e7-974a-d4ee57776031.png)
 
-* Settings > Keyboard > Shortcuts: enable Mission Control > Switch to Desktop `n` and set the hotkey to <kbd>mod</kbd>+<kbd>[n]</kbd> (see chapter Quick Start) ![Screenshot Keyboard Shortcuts](https://user-images.githubusercontent.com/32271425/33946879-42d88266-e023-11e7-974a-d4ee57776031.png)
+* Settings > Keyboard > Shortcuts: enable Mission Control > Switch to Desktop `n` and set the hotkey to <kbd>mod</kbd>+<kbd>[n]</kbd> (see chapter Quick Start) ![Screenshot Keyboard Shortcuts](https://user-images.githubusercontent.com/32271425/33946878-42bd1990-e023-11e7-9dc9-d3a1bd532a43.png)
 
 ## Updating
 
