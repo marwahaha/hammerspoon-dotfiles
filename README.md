@@ -48,6 +48,16 @@ To change that, edit the `globals.lua` file found in `~/.hammerspoon/`.
 ## Hotkeys
 The default modifier is abreviated with <kbd>mod</kbd> in the following list.
 
+Key explanation:
+
+<kbd>^</kbd> : ctrl
+
+<kbd>⌥</kbd> : alt
+
+<kbd>⌘</kbd> : cmd
+
+<kbd>⌫</kbd> : delete
+
 ### Window Resizing
 
 <kbd>mod</kbd>+<kbd>⇧</kbd>+<kbd>↩</kbd> : open new iTerm2 window
@@ -84,6 +94,11 @@ The default modifier is abreviated with <kbd>mod</kbd> in the following list.
 
 <kbd>⌥</kbd>+<kbd>^</kbd>+<kbd>7</kbd> : emit <kbd>⌘</kbd>+<kbd>\ </kbd>, which is used to line comment code in jetbrains products on German keyboards
 
+### Chrome Profile Switching
+
+<kbd>^</kbd>+<kbd>n</kbd> : Focus Chrome and switch to profile `n`, who can be defined in `chrome.lua`.
+
+<kbd>^</kbd>+<kbd>4</kbd> : Open incognito window
 
 ## License
 > MIT License
