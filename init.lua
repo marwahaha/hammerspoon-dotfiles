@@ -2,6 +2,7 @@ require('globals')
 dofile('window_tiling.lua')
 dofile('space_manipulation.lua')
 dofile('battery.lua')
+dofile('chrome.lua')
 
 -- Keybinding for JetBrains: Code > Comment with Line Comment
 hs.hotkey.bind({"alt", "ctrl"}, "7", nil, function() 
