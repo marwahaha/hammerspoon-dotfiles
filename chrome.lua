@@ -17,8 +17,9 @@ local menu_label = translateLabels(hs.host.locale.current())
 
 local function chrome_switch_to(profile)
     return function()
-        local chrome = hs.application.find(CHROME)
-        if chrome == nil then hs.application.launchOrFocus(CHROME) end
+        hs.application.launchOrFocus(CHROME)
+        
+        local chrome = nil 
         while chrome == nil do
           chrome = hs.application.find(CHROME)
         end
