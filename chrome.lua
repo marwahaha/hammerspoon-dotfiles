@@ -1,3 +1,5 @@
+local CHROME = 'Google Chrome'
+
 local function translateLabels(locale)
   local label = {}
 
@@ -15,15 +17,14 @@ local menu_label = translateLabels(hs.host.locale.current())
 
 local function chrome_switch_to(profile)
     return function()
-        hs.application.launchOrFocus("Google Chrome")
-
-        local chrome = nil
+        local chrome = hs.application.find(CHROME)
+        if chrome == nil then hs.application.launchOrFocus(CHROME) end
         while chrome == nil do
-          chrome = hs.application.find("Google Chrome")
+          chrome = hs.application.find(CHROME)
         end
 
         local str_menu_item
-        if profile == "Incognito" then
+        if profile == 'Incognito' then
             str_menu_item = menu_label.incognito
         else
             str_menu_item = {menu_label.people, profile}
