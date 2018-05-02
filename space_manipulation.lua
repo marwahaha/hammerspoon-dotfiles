@@ -27,10 +27,16 @@ local function screenSpaces(currentScreen)
 end
 
 local function getScreenSpaceLayout()
+  local orderedScreens = {}
+  for screen,position in pairs(hs.screen.screenPositions()) do 
+      local index = position.x + 1
+      orderedScreens[index] = screen
+  end 
+  
   local layout = {}
   local i = 1
-
-  hs.fnutils.each(hs.screen.allScreens(), function(screen)
+  -- old version: hs.screen.allScreens()
+  hs.fnutils.each(orderedScreens, function(screen)  
     hs.fnutils.each(screenSpaces(screen), function(space)
       local o = {["screen"] = screen, ["space"] = space}
       layout[i] = o
