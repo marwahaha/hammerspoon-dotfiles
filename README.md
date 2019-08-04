@@ -46,7 +46,7 @@ The default modifier (base key for every action) is <kbd>⌘</kbd>.
 To change that, edit the `globals.lua` file found in `~/.hammerspoon/`.
 
 ## Hotkeys
-The default modifier is abreviated with <kbd>mod</kbd> in the following list.
+The default modifier is abbreviated with <kbd>mod</kbd> in the following list.
 
 Key explanation:
 
